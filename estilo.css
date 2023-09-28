@@ -21,6 +21,7 @@ ul {
 .title {
     font-family: 'Lobster', cursive;
     color: #36589c;
+    padding-bottom: 1em;
 }
 
 .header_nav {
