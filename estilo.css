@@ -145,22 +145,10 @@ ul {
 
 }
 
-video {
-    max-width: 100%; 
-    height: auto;
-}
-
-
 .estilo {
     height: 100vh;
     display: flex;
     align-items: center;
-}
-
-footer {
-    text-align: center;
-    padding: 1em;
-    background-color: #fbedea;
 }
 
 .contact {
@@ -175,15 +163,17 @@ footer {
 
 .card_body a {
     text-decoration: none;
-    color: #36589c;
+    color: #ffffff;
     display: inline-block;
-    border-radius: 5px;
-    background-color:#ff8197;
+    border-radius: 3px;
+    margin-top: 1em;
+    padding: .7em;
+    background-color:#36589c;
     font-family: 'Roboto Slab', serif;
 }
 
 .card_body a:hover {
-    background-color: color-mix(in srgb, #fccea4 50%, #fbedea 50%);
+    background-color: color-mix(in srgb, #36589c 50%, #fbedea 50%);
 }
 
 .about_sections {
@@ -200,14 +190,6 @@ footer {
     line-height: 1.5;
 }
 
-footer p{
-    font-size: 1em;
-    font-family: 'Roboto Slab', serif;
-    color: #36589c;
-    margin-top: 1em;
-    padding: 1em;
-}
-
 .row {
     flex-wrap: wrap;
     justify-content: space-around;
@@ -222,8 +204,31 @@ footer p{
     flex: 1 0 auto;
     width: 100%;
     margin-bottom: 2em;
+    background-color: #ff8197;
+    border-radius: 5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .col-12 {
     width: 100%;
+}
+
+video {
+    max-width: 100%; 
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #fbedea;
+}
+
+footer p{
+    font-size: 1em;
+    font-family: 'Roboto Slab', serif;
+    color: #36589c;
+    margin-top: 1em;
+    padding: 1em;
 }
