@@ -142,7 +142,14 @@ ul {
     article.col-6 {
         width: calc(50% - 2rem);
     }
+
 }
+
+video {
+    max-width: 100%; 
+    height: auto;
+}
+
 
 .estilo {
     height: 100vh;
