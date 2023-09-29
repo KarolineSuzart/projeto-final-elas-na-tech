@@ -68,88 +68,6 @@ ul {
     font-size: 2em;
 }
 
-@media screen and (min-width: 48em) {
-    #hamburguer {
-        display: none;
-    }
-
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color:#fbedea;
-    }
-
-    div.container_fixed {
-        position: sticky;
-        width: 100%;
-        top:0;
-        left: 0;
-    }
-
-    .wrapperContainer {
-        padding-top: 1rem;
-    }
-
-    .header_logo {
-        margin-left: 2em;
-    }
-
-    .header_nav {
-        display: block;
-        font-size: 1em;
-    }
-
-    .header_nav a {
-        border-radius: 5px;
-    }
-
-    .header_nav li {
-        display: inline-block;
-    }
-
-    .header_nav a:hover {
-        background-color: color-mix(in srgb, #fccea4 50%, #fbedea 50%);
-        color: #36589c;
-    }
-
-    .header_nav ul {
-        margin-right: 2em;
-        font-size: 1em;
-    }
-
-    div.contact {
-        flex-direction: row; 
-        justify-content: center;
-        gap: 5em;
-        margin: 1.5em 0;
-    }
-
-    ul.two-columns {
-        list-style-type: square;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    article.col {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        text-align: center;
-    }
-
-    article.col img {
-        margin-bottom: 1em;
-        margin-right: 1em;
-    }
-
-    article.col-6 {
-        width: calc(50% - 2rem);
-    }
-
-}
-
 .estilo {
     height: 100vh;
     display: flex;
@@ -181,11 +99,17 @@ ul {
     background-color: color-mix(in srgb, #36589c 50%, #fbedea 50%);
 }
 
+.two-columns {
+    font-size: 1em;
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5;
+}
+
 .about_sections {
     text-align: center;
-    margin: auto;
+    margin: 1em;
     padding: 1em;
-    width: 80%;
 }
 
 .about_sections p {
@@ -236,4 +160,90 @@ footer p{
     color: #36589c;
     margin-top: 1em;
     padding: 1em;
+}
+
+@media screen and (min-width: 48em) {
+    #hamburguer {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:#fbedea;
+    }
+
+    div.container_fixed {
+        position: sticky;
+        width: 100%;
+        top:0;
+        left: 0;
+    }
+
+    .wrapperContainer {
+        padding-top: 1rem;
+    }
+
+    .header_logo {
+        margin-left: 2em;
+    }
+
+    .header_nav {
+        display: block;
+        font-size: 1em;
+    }
+
+    .header_nav a {
+        border-radius: 5px;
+    }
+
+    .header_nav li {
+        display: inline-block;
+    }
+
+    .header_nav a:hover {
+        background-color: color-mix(in srgb, #fccea4 50%, #fbedea 50%);
+        color: #36589c;
+    }
+
+    .header_nav ul {
+        margin-right: 2em;
+        font-size: 1em;
+    }
+
+    .about_sections {
+        margin: 5em;
+    }
+
+    div.contact {
+        flex-direction: row; 
+        justify-content: center;
+        gap: 5em;
+        margin: 1.5em 0;
+    }
+
+    ul.two-columns {
+        list-style-type: square;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    article.col {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    article.col img {
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }
+
+    article.col-6 {
+        width: calc(50% - 2rem);
+    }
+
 }
