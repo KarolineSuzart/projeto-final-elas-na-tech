@@ -65,7 +65,7 @@ ul {
     text-align: center;
     padding: .3em;
     cursor: pointer;
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 .estilo {
@@ -109,7 +109,6 @@ ul {
 .about_sections {
     text-align: center;
     margin: 1em;
-    padding: 1em;
 }
 
 .about_sections p {
@@ -174,13 +173,6 @@ footer p {
         background-color: #fbedea;
     }
 
-    div.container_fixed {
-        position: sticky;
-        width: 100%;
-        top: 0;
-        left: 0;
-    }
-
     .wrapperContainer {
         padding-top: 1rem;
     }
@@ -213,7 +205,7 @@ footer p {
     }
 
     .about_sections {
-        margin: 5em;
+        margin: 0 5em;
     }
 
     div.contact {
@@ -246,4 +238,34 @@ footer p {
         width: calc(50% - 2rem);
     }
 
+}
+
+@media screen and (max-width: 52em) {
+
+    article.col {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    article.col img {
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }
+}
+
+@media screen and (max-width: 57em) {
+
+    article.col {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    article.col img {
+        margin-bottom: 1em;
+        margin-right: 1em;
+    }
 }
